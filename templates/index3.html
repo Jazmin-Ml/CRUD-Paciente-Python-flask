@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina WEB Jazmin 5N</title>
+    <link rel="shortcut icon" href="/static/images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/static/css/style3.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class ="seleccion">Inicio</a>
+            <a href="citas.html"seleccion>Citas</a>
+            <a href="#"seleccion>Servicios</a>
+            <a href="#"seleccion>Quienes Somos</a>
+            <a href="#"seleccion>Contactanos</a>
+            <p>Bienvenido,  {{ session['email'] }}</p>
+        </nav>
+        <section class="textos-header">
+            <h1>Clinica de Especialidades </h1>
+            <h2>Especialidades Medicas</h2>
+        </section>
+
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #08f;"></path></svg></div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros">
+                <h2 class="titulo">Acerca de los Especialistas</h2>
+                <div class="contenedor-sobre-nosotros">
+                    <img src="/static/images/doctor.jpg" alt="" class="imagen-about-us">
+                    <div class="contenido-textos">
+                        <h3>Nuestro Proceso de Verificación</h3>
+                        <p>Todos los doctores, especialistas y centros médicos son verificados en nuestro proceso de validación, en donde nos aseguramos que:</p>
+                        <h3><span>1</span><p>Los médicos tengan constancias o títulos de sus especialidades en universidades acreditadas.</p></h3>
+                        <h3><span>2</span><p>Los especialistas comprueben exitosamente sus acreditaciones, diplomados y otros estudios en su experiencia profesional.</p></h3>
+                        <h3><span>3</span><p>Los centros médicos cuenten con instalaciones adecuadas en una revisión de ubicación.</p></h3>
+                    </div>
+                </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Portafolio</h2>
+                <div class="galeria-port">
+                <div class="imagen-port">
+                    <img src="/static/images/clinica.jpg" alt="">
+                    <div class="hover-galeria">
+                        <img src="/static/images/icon.png" alt="">
+                        <p>Nuestro Trabajo</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="/static/images/clinica.jpg" alt="">
+                    <div class="hover-galeria">
+                        <img src="/static/images/icon.png" alt="">
+                        <p>Nuestro Trabajo</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                    <img src="/static/images/clinica.jpg" alt="">
+                    <div class="hover-galeria">
+                        <img src="/static/images/icon.png" alt="">
+                        <p>Nuestro Trabajo</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="clientes contenedor">
+            <h2 class="titulo">Acerca de la Pagina</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="/static/images/icon.png" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Tu guia de salud online</h4>
+                        <p>Nuestro principal objetivo es llevar información confiable a todas las personas acerca de profesionales de la salud certificados.</p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestras Especialidades</h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="/static/images/cardiología.jpg" alt="">
+                        <h3>Cardiologia</h3>
+                        <p>se especiliza en el diagnóstico y tratamiento de enfermedades del corazón, los vasos sanguíneos y el sistema circulatorio. Tambien ve  problemas del ritmo del corazón e insuficiencia cardíaca.</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="/static/images/pediatria.jpg" alt="">
+                        <h3>Pediatria</h3>
+                        <p>especialidad médica enfocada en la atención de los niños desde su nacimiento hasta la adolescencia.</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="/static/images/neuro.jpeg" alt="">
+                        <h3>Neurologia</h3>
+                        <p>es la especialidad médica que estudia la estructura, función y desarrollo del sistema nervioso (central, periférico y autónomo) y muscular en estado normal y patológico.</p>
+                    </div>
+                
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Phone</h4>
+                <p>967-193-7117</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>jazmin.mijangos82@unach.mx</p>
+            </div>
+            <div class="content-foo">
+                <h4>Location</h4>
+                <p>Tuxtla Gutierrez, Chiapas</p>
+            </div>
+        </div>
+        <h2 class="titulo final">&copy; JazminML Desing | Jazmin Mijangos</h2>
+    </footer>
+</body>
+</html>
